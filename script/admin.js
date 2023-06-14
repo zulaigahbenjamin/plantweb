@@ -4,13 +4,15 @@
 let plants = [
   { id: 1, 
     name: 'Plant A',
-     image: 'https://i.postimg.cc/Xv648Sww/wood-succulant-stand.jpg' 
+     image: 'https://i.postimg.cc/Xv648Sww/wood-succulant-stand.jpg',
+     price: 2000, 
     },
 
   { 
     id: 2, 
     name: 'Plant B',
-     image: 'https://i.postimg.cc/Xv648Sww/wood-succulant-stand.jpg' 
+     image: 'https://i.postimg.cc/Xv648Sww/wood-succulant-stand.jpg',
+     price:2000,
     },
 ];
 
@@ -24,6 +26,8 @@ function renderPlantList() {
     listItem.innerHTML = `
       <img src="${plant.image}" alt="${plant.name}" width="100">
       <span>${plant.name}</span>
+      <div>${plant.name}</div>
+      <div>${plant.price}</div>
       <button class="editButton" data-id="${plant.id}">Edit</button>
       <button class="deleteButton" data-id="${plant.id}">Delete</button>
     `;

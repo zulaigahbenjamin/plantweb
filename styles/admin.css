@@ -26,11 +26,11 @@ header {
     height: auto;
 }
 
-nav ul {
+.nav-links {
     display: flex;
     list-style: none;
 }
-li {
+ .column-links {
     list-style: none;
 }
 
@@ -87,10 +87,10 @@ height:30px;
 width:200px;
 justify-content: space-between;
 }
-.btn{
-    
-}
-   /*footer*/
+
+
+
+/*footer*/
    footer {
     background-image: url("https://i.postimg.cc/bYxhhcJy/output-onlinepngtools-1-1.png");
 background-position: right;
@@ -130,21 +130,21 @@ background-position: right;
     font-size: 1.4em;
     white-space: nowrap;
   }
-  ul {
+  .info {
     list-style: none;
     display: flex;
     flex-direction: column;
     padding: 0;
     margin: 0;
   }
-  li:not(:first-child) {
+  .things:not(:first-child) {
     margin-top: 0.8em;
   }
-  ul li a {
+  .info, .things a {
     color: black;
     text-decoration: none;
   }
-  ul li a:hover {
+  .info, .things a:hover {
     color: #23764a;
   }
   .about p {
