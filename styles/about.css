@@ -1,1 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/*Navbar */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-family: system-ui;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 120px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+/*ending of navbar*/
+
+/*content*/
+
+.heading {
+    background-image: url("/assets/output-onlinepngtools\ 1.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+span {
+    color: white;
+}
+h1 {
+    margin-left: 100px;
+    font-size: 60px;
+}
+.eoe {
+    margin-left: 500px;
+}
+.shipp {
+    background-image: url("https://i.postimg.cc/VN5DfZ0C/Hanging-on-Wall.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    height: 100vh;
+    padding-top: 10%;
+}
+
+.con,
+.cons {
+    height: 25%;
+    border-radius: 5px;
+    background-color: rgba(145, 146, 145, 0.783);
+    width: 40%;
+    opacity: 1;
+    margin-left: 20px;
+}
+.cons {
+    float: right;
+    margin-right: 30px;
+}
+.people {
+    float: right;
+    margin-right: 20px;
+}
+.names {
+    width: 500px;
+    background-color: rgb(222, 222, 222);
+    opacity: 1.5;
+    border-radius: 5px;
+    padding: 20px;
+    overflow: scroll;
+    margin-left: 20%;
+}
+.age,
+.agee {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.agee {
+    float: right;
+}
+.info {
+    margin-left: 20px;
+    text-align: center;
+}
+.infoe {
+    margin-right: 100%;
+    width: 50%;
+}
+footer {
+    background-color: rgb(166, 186, 150);
+    height: 100px;
+    width: 100%;
+}
+.parent {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    column-gap: 99px;
+
+    margin-top: 50px;
+}
+.name {
+    float: right;
+}
