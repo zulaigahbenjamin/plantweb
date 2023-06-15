@@ -74,18 +74,19 @@ nav a {
 
 /*admin*/
 
-.plantList{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    position:absolute;
+#plants{
+   display:grid;
+   grid-template-columns:auto auto ;
+  
+    
 }
-#addPlantForm {
-    float:right;
-}
-#plantName, #plantImage{
-height:30px;
+
+#plantName, #plantImage, #plantPrice{
+height:40px;
 width:200px;
-justify-content: space-between;
+justify-content: space-between ;
+margin:20px;
+
 }
 
 
